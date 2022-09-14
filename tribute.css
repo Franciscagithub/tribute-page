@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #333;
+}
+.tribute-page {
+    max-width: 75%;
+    height: auto;
+    background-color: rgb(10, 26, 39);
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+.tribute-page h1 {
+    color: white;
+    padding: 50px 30px 30px 30px;
+    /* text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue; */
+    text-shadow: 3px 3px 6px rgb(1, 17, 5);
+    opacity: 0.9;
+    font-size: 8vmin;
+}
+.title-info {
+    font-size: 24px;
+    padding-bottom: 7px;
+}
+.tribute-page p {
+    color: white;
+    opacity: 0.8;
+}
+.image {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    color: white;
+    background-color: rgb(13, 62, 126); 
+}
+.image img {
+    width: 95%;
+    height: auto;
+   
+}
+.image p {
+    font-size: 24px;
+
+}
+.info-title {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: rgb(41, 41, 65);
+    text-shadow: 2px 2px 1px rgb(234, 241, 245);
+    
+}
+.tribute-info {
+    padding: 15px 20px;
+    line-height: 25px;
+    opacity: 0.85;
+    font-size: 25px;
+    text-align: left;
+}
+.more-info {
+    opacity: 0.85;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.more-info a{
+    color: rgb(89, 89, 240);
+    text-decoration: none;
+}
